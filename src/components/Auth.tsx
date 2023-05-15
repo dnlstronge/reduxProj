@@ -1,6 +1,7 @@
 import classes from './Auth.module.css';
+import React from "react";
 
-const Auth = () => {
+const Auth: React.FC = () => {
   return (
     <main className={classes.auth}>
       <section>
